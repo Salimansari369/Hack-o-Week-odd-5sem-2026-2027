@@ -1,0 +1,83 @@
+# 🏆 Hack-o-Week: Full-Stack Development & Applied Machine Learning (Odd Sem)
+
+[![Semester](https://img.shields.io/badge/Academic%20Term-5th%20Semester-blue?style=flat-square)](#)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)](#)
+[![Flask](https://img.shields.io/badge/Backend-Flask%20REST%20API-black?style=flat-square&logo=flask)](#)
+[![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn%20%7C%20Pandas%20%7C%20NumPy-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)](#)
+[![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-F37626?style=flat-square&logo=jupyter)](#)
+[![Author](https://img.shields.io/badge/Author-Salim%20Ansari-blue?style=flat-square&logo=github)](https://github.com/Salimansari369)
+
+This repository contains the complete portfolio of coursework, engineering challenges, full-stack applications, and machine learning labs completed as part of the **Hack-o-Week (5th Semester)** curriculum. 
+
+The projects span production-style RESTful microservices, campus utilities, numerical computing, classical supervised machine learning benchmarks, feature engineering pipelines, and unsupervised clustering algorithms.
+
+---
+
+## 📚 Curriculum & Tasks Overview
+
+| Phase / Task | Project / Module Name | Focus Area | Tech Stack & Key Concepts |
+|---|---|---|---|
+| **Task 1** | **[CampusCare](./task%201)** | Full-Stack REST API & Web App | Flask, SQLite, Jinja2, RESTful Routing, Auth, Complaint Lifecycles |
+| **Task 2** | **[HostelWise](./task%202)** | Room Allocation & Data Science | Python, Pandas, Data Cleaning, Aggregations & Exploratory Analysis |
+| **Task 3** | **[Linear Algebra & Calculus](./task%203)** | Mathematical Foundations for ML | NumPy, Matrix Decompositions, Eigenvalues, Gradient Computations |
+| **Task 4** | **ML: Regression & Classification** | Supervised Model Benchmarking | Scikit-Learn, Linear/Ridge/Lasso, Decision Trees, SVM, Random Forests |
+| **Task 5 (Part 1)** | **Model Evaluation & Feature Engineering** | Preprocessing & Metrics Tuning | Imputation, One-Hot/Label Encoding, Scalers, Cross-Validation, ROC-AUC |
+| **Task 5 (Part 2)** | **Clustering Complete Workflow** | Unsupervised Machine Learning | K-Means, Elbow Method, Silhouette Analysis, PCA Visualizations |
+
+---
+
+## 🔍 Detailed Task Highlights
+
+### 1. 🛠️ Task 1: CampusCare (Campus Maintenance & Complaint Management)
+* A production-style **Flask REST API** with an administrative web console.
+* Allows campus students and staff to register, track, prioritize, and resolve infrastructure issues (electrical, plumbing, Wi-Fi, equipment breakdown).
+* Clean separation of API endpoints and UI controllers.
+
+### 2. 🏢 Task 2: HostelWise & Data Science Foundations
+* Hostel room allocation logic and campus accommodation management.
+* Exploratory Data Analysis (EDA) notebook (`python_datascience_practice.ipynb`) covering data manipulation, filtering, and statistical summaries using Pandas and NumPy.
+
+### 3. 📐 Task 3: Linear Algebra & Calculus for Machine Learning
+* Computational implementations of vector spaces, matrix transformations, eigenvalues/eigenvectors, and partial derivatives essential for deep learning and loss optimization.
+
+### 4. 🤖 Task 4: Supervised ML Benchmarking
+* Comparative evaluation between multiple regression models (Linear, Polynomial, Regularized) and classification algorithms (Logistic Regression, Decision Trees, Ensemble Random Forest, Support Vector Machines).
+* Metrics: $R^2$, RMSE, MAE, Confusion Matrix, Precision, Recall, F1-Score.
+
+### 5. 🔬 Task 5: Feature Engineering & Unsupervised Clustering
+* **Part A:** Robust pipelines for outlier detection, missing value imputation, variance thresholding, and hyperparameter search.
+* **Part B:** End-to-end unsupervised clustering using K-Means, optimal cluster selection ($K$) via Elbow and Silhouette scores, and dimensionality reduction via Principal Component Analysis (PCA).
+
+---
+
+## 🚀 Setup & Execution Guide
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Salimansari369/Hack-o-Week-odd-5sem-2026-2027.git
+cd Hack-o-Week-odd-5sem-2026-2027
+```
+
+### 2. Running Jupyter Notebooks (Tasks 2, 3, 4, 5)
+```bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+
+pip install -r "task 1/requirements.txt" jupyter scikit-learn matplotlib seaborn
+jupyter notebook
+```
+
+### 3. Running CampusCare (Task 1)
+```bash
+cd "task 1"
+python run.py
+```
+Open `http://localhost:5000` in your web browser.
+
+---
+
+## 👤 Author
+
+* **Salim Ansari**
+  * GitHub: [@Salimansari369](https://github.com/Salimansari369)
