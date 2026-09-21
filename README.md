@@ -50,6 +50,45 @@ The projects span production-style RESTful microservices, campus utilities, nume
 
 ---
 
+## 📸 Application Screenshots & Model Visualizations
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🛠️ Task 1: CampusCare Complaint Management</h3>
+      <p align="center">
+        <img src="assets/campuscare_console.jpeg" width="100%" alt="CampusCare Admin Console" style="border-radius: 8px;" />
+      </p>
+      <p align="center"><em>Real-time campus maintenance request submission and category routing portal.</em></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📊 Task 1: Resolution Tracking & Status Registry</h3>
+      <p align="center">
+        <img src="assets/campuscare_complaints.jpeg" width="100%" alt="CampusCare Status Registry" style="border-radius: 8px;" />
+      </p>
+      <p align="center"><em>Administrative dashboard monitoring ticket states, priority queues, and technician assignments.</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🏢 Task 2: HostelWise Data Science & EDA</h3>
+      <p align="center">
+        <img src="assets/hostelwise_eda.jpeg" width="100%" alt="HostelWise EDA" style="border-radius: 8px;" />
+      </p>
+      <p align="center"><em>Pandas/NumPy statistical analysis on student room allocations and occupancy rates.</em></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📈 Task 2: Data Cleaning & Aggregation Summary</h3>
+      <p align="center">
+        <img src="assets/hostelwise_data_summary.jpeg" width="100%" alt="HostelWise Data Summary" style="border-radius: 8px;" />
+      </p>
+      <p align="center"><em>Feature summaries, outlier boundaries, and room distribution statistics.</em></p>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🚀 Setup & Execution Guide
 
 ### 1. Clone the Repository
