@@ -25,6 +25,7 @@ The projects span production-style RESTful microservices, campus utilities, nume
 | **Task 5 (Part 2)** | **Clustering Complete Workflow** | Unsupervised Machine Learning | K-Means, Elbow Method, Silhouette Analysis, PCA Visualizations |
 | **Task 6** | **[PCA & t-SNE](./task_6_week_11,12_PCA_and_tSNE.ipynb)** | Dimensionality Reduction & Manifold Learning | PCA, Scree Plot, Explained Variance, t-SNE Perplexity & 2D/3D Projection |
 | **Task 7** | **[Ensemble Methods & Regularization](./task_7_week_13,14_Ensemble_Methods.ipynb)** | Advanced Ensembles & Generalization | Bagging, Random Forest, AdaBoost, Gradient Boosting, XGBoost, LightGBM, L1/L2 Regularization, Bias-Variance Trade-off |
+| **Task 8** | **[Neural Networks & Deployment](./task_8_week_15,16_Neural_Networks.ipynb)** | Deep Learning Foundations & Model Serialization | Perceptrons, Activation Functions (Sigmoid, ReLU, Tanh), Forward/Backprop from scratch (NumPy), Loss Functions, Optimizers (SGD, Adam), Pickle/Joblib Deployment |
 
 ---
 
@@ -58,6 +59,12 @@ The projects span production-style RESTful microservices, campus utilities, nume
 * Empirical measurement of Bias² and Variance, diagnosis of overfitting vs underfitting through learning curves and decision boundary visualizations.
 * Comparative regularization benchmarks: unregularized high-degree polynomials vs L1 (Lasso) and L2 (Ridge) across penalty strengths ($\alpha$).
 * Comprehensive ensemble architectures: Bagging, Random Forests, Boosting (AdaBoost, Gradient Boosting, XGBoost, LightGBM), and Voting/Stacking classifiers.
+
+### 8. 🧠 Task 8: Neural Networks from Scratch & Model Deployment
+* **Model Serialization & Deployment:** Production artifact persistence and deserialization patterns using `pickle` and `joblib`.
+* **Deep Learning Mathematics:** Step-by-step mathematical derivation and implementation of single-layer Perceptrons, activation functions (Sigmoid, Tanh, ReLU, LeakyReLU, Softmax), and gradient backpropagation.
+* **Loss Landscapes & Optimizers:** Comparative analysis between MSE and Cross-Entropy losses, alongside optimization convergence with Gradient Descent, Momentum, and Adam.
+* **From-Scratch NumPy Architecture:** Full multilayer feedforward neural network coded purely in NumPy with trainable dense layers, forward pass, backpropagation, model weight saving, and inference reloading.
 
 ---
 
