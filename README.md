@@ -23,6 +23,8 @@ The projects span production-style RESTful microservices, campus utilities, nume
 | **Task 4** | **ML: Regression & Classification** | Supervised Model Benchmarking | Scikit-Learn, Linear/Ridge/Lasso, Decision Trees, SVM, Random Forests |
 | **Task 5 (Part 1)** | **Model Evaluation & Feature Engineering** | Preprocessing & Metrics Tuning | Imputation, One-Hot/Label Encoding, Scalers, Cross-Validation, ROC-AUC |
 | **Task 5 (Part 2)** | **Clustering Complete Workflow** | Unsupervised Machine Learning | K-Means, Elbow Method, Silhouette Analysis, PCA Visualizations |
+| **Task 6** | **[PCA & t-SNE](./task_6_week_11,12_PCA_and_tSNE.ipynb)** | Dimensionality Reduction & Manifold Learning | PCA, Scree Plot, Explained Variance, t-SNE Perplexity & 2D/3D Projection |
+| **Task 7** | **[Ensemble Methods & Regularization](./task_7_week_13,14_Ensemble_Methods.ipynb)** | Advanced Ensembles & Generalization | Bagging, Random Forest, AdaBoost, Gradient Boosting, XGBoost, LightGBM, L1/L2 Regularization, Bias-Variance Trade-off |
 
 ---
 
@@ -47,6 +49,15 @@ The projects span production-style RESTful microservices, campus utilities, nume
 ### 5. 🔬 Task 5: Feature Engineering & Unsupervised Clustering
 * **Part A:** Robust pipelines for outlier detection, missing value imputation, variance thresholding, and hyperparameter search.
 * **Part B:** End-to-end unsupervised clustering using K-Means, optimal cluster selection ($K$) via Elbow and Silhouette scores, and dimensionality reduction via Principal Component Analysis (PCA).
+
+### 6. 🌐 Task 6: Dimensionality Reduction (PCA & t-SNE)
+* Mathematical formulation and implementation of Principal Component Analysis (covariance matrix decomposition, eigenvalues, cumulative explained variance).
+* Non-linear manifold learning with t-SNE exploring varying perplexity and learning rate dynamics for high-dimensional visual separation.
+
+### 7. 🌲 Task 7: Ensemble Methods, Bias-Variance Trade-off & Regularization
+* Empirical measurement of Bias² and Variance, diagnosis of overfitting vs underfitting through learning curves and decision boundary visualizations.
+* Comparative regularization benchmarks: unregularized high-degree polynomials vs L1 (Lasso) and L2 (Ridge) across penalty strengths ($\alpha$).
+* Comprehensive ensemble architectures: Bagging, Random Forests, Boosting (AdaBoost, Gradient Boosting, XGBoost, LightGBM), and Voting/Stacking classifiers.
 
 ---
 
